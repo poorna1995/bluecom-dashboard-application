@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e8e8e8;
+
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c8c8c8;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.thumbnail-slider-wrap {
+  margin-top: 15px;
+  height: 100px;
+}
+.thumbnail-slider-wrap .slick-track .slick-slide {
+  text-align: center;
+}
+.thumbnail-slider-wrap .slick-track .slick-slide img {
+  width: 70%;
+}
+
+.MuiButton-sizeSmall {
+  height: 40px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.MuiButton-sizeMedium {
+  height: 48px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.MuiButton-sizeLarge {
+  height: 52px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.MuiButton-extraSmall2 {
+  height: 52px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.MuiButton-sizeSmallIcon {
+  height: 42px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+.MuiTableRow-root:hover td {
+  background-color: transparent !important;
+}
+
+.rotate-icon {
+  animation: rotateImg 2s linear infinite;
+}
+@keyframes rotateImg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(358deg);
+  }
+}
